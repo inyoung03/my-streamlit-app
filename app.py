@@ -18,7 +18,7 @@ text = st.text_area(
 )
 
 # 버튼
-if st.button("음성 생"):
+if st.button("음성 생성"):
     if text.strip() == "":
         st.warning("텍스트를 입력하세요")
     else:
