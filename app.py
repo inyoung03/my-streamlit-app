@@ -8,8 +8,8 @@ from openai import OpenAI
 client =
 
 # 페이지 설정
-st.set_page_config(page_title="텍스트 음성 변환 서비스", page_icon="🤖")
-st.title"("🤖 음성 변환 서비스")
+st.set_page_config(page_title="텍스트 음성 변환", page_icon="🔊")
+st.title("🔊 텍스트 → 음성 변환 실습")
 st.write("음성을 변환해드릴게옹")
 
 # 텍스트 입력
