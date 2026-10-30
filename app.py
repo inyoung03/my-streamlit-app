@@ -5,7 +5,7 @@ import streamlit as st
 from openai import OpenAI
 
 # OpenAI 클라이언트 생성
-client =
+client = OpenAI()
 
 # 페이지 설정
 st.set_page_config(page_title="텍스트 음성 변환", page_icon="🔊")
@@ -15,6 +15,7 @@ st.write("음성을 변환해드릴게옹")
 # 텍스트 입력
 text = st.text_area(
     "읽을 텍스트를 입력하세요",
+    height=150,
     "안녕하세요. OpenAI 텍스트 음성 변환 실습입니다."
 )
 
